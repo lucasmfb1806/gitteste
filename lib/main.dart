@@ -53,8 +53,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("BULLY"),
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white,
+        backgroundColor: Colors.white,
+        foregroundColor: Colors.black,
         centerTitle: true,
         elevation: 0,
       ),
@@ -107,7 +107,7 @@ const SizedBox(height: 20),
             const SizedBox(height: 20),
 
             const Text(
-              "Tracklist",
+              "Listas de musicas do autor",
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
